@@ -160,4 +160,51 @@ button#equal {
     background-color: #223323;
     color: #ffffff;
   }
-  // JavaScriptCore
+.logo{
+    text-decoration: none;
+    color: rgb(136, 0, 255);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 0 10px;
+}
+.navigation a{
+    color:#aa00a4 ;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-right: 30px;
+}   
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    padding-right:6px ;
+    padding-left: 6px;
+    background-color: #071115;
+    color: #f8fafb;
+    box-shadow: 0 0 10px #000;
+    z-index: 999;
+    }
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+.nav li{
+    display: inline-block;
+    padding: 10px;
+    }
+    
+.navigation a:hover{
+    color: aqua;
+}
+.logo:hover{
+    color:#aa00a4 ;
+}
