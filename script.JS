@@ -28,8 +28,3 @@ themeToggleBtn.onclick = () => {
   themeToggleBtn.classList.toggle("active");
   isDark = !isDark;
 };
-//the process of multiplying tow numbers
-function multiply(a, b) {
-  return a * b;
-}
-//the process of dividing tow numbers
